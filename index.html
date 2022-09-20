@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220725205223">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220920215409">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +15,7 @@
 
 <body>
 	<div class="wrapper">
-		<header class="header">
+		<header data-watch-once data-watch class="header">
 			<div class="header__container">
 				<a href="#" class="header__logo">
 					Space travel
@@ -34,11 +34,11 @@
 			</div>
 		</header>
 		<main class="page">
-			<section class="page__main-block main-block">
+			<section data-watch-once data-watch class="page__main-block main-block">
 				<div class="main-block__container">
 					<div data-da=".main-block__content, 767.98" class="main-block__title title">
 						<h1>Unique journey to the 5 closest planets</h1>
-						<a data-da=".main-block__content, 767.98" href="" class="main-block__button more more_hover button">
+						<a href="" data-goto-header data-goto=".about-us" data-da=".main-block__content, 767.98" href="" class="main-block__button more more_hover button">
 							tickets
 							<span>
 								<!-- <svg width="26" height="15" viewBox="0 0 26 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -60,7 +60,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="page__about-us about-us">
+			<section data-watch-once data-watch data-watch-threshold="0.5" class="page__about-us about-us">
 				<div class="about-us__container">
 					<div class="about-us__content">
 						<div class="about-us__body">
@@ -93,7 +93,7 @@
 					</a>
 				</div>
 			</section>
-			<section class="page__tickets tickets">
+			<section data-watch-once data-watch data-watch-threshold="0.5" class="page__tickets tickets">
 				<div class="tickets__container">
 					<div class="tickets__title">Tickets</div>
 					<div data-tabs class="tickets__tabs tabs-tickets">
@@ -264,7 +264,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="page__offer offer">
+			<section data-watch-once data-watch data-watch-threshold="0.5" class="page__offer offer">
 				<div class="offer__container">
 					<div class="offer__body title">
 						<h2 class="offer__title">Special offer, journey to earth's orbit</h2>
@@ -280,7 +280,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="page__faq faq">
+			<section data-watch-once data-watch data-watch-threshold="0.5" class="page__faq faq">
 				<div class="faq__container">
 					<div class="faq__title">
 						<h2>FAQ</h2>
@@ -331,7 +331,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="page__contacts contacts">
+			<section data-watch-once data-watch data-watch-threshold="0.5" class="page__contacts contacts">
 				<div class="contacts__container">
 					<h2 class="contacts__title">Contacts</h2>
 					<div class="contacts__content">
@@ -385,7 +385,6 @@
 					</div>
 				</div>
 			</section>
-
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
@@ -427,17 +426,7 @@
 			</div>
 		</footer>
 	</div>
-	<!-- <div id="popup" aria-hidden="true" class="popup">
-	<div class="popup__wrapper">
-		<div class="popup__content">
-			<button data-close type="button" class="popup__close">Закрыть</button>
-			<div class="popup__text">
-				Text
-			</div>
-		</div>
-	</div>
-</div> -->
-	<script src="js/app.min.js?_v=20220725205223"></script>
+	<script src="js/app.min.js?_v=20220920215409"></script>
 </body>
 
 </html>
